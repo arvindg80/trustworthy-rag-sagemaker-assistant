@@ -1,0 +1,2 @@
+# Local PDF processing; Databricks runtime supplies pyspark and Delta Lake.
+pymupdf>=1.24,<2

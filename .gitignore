@@ -1,0 +1,29 @@
+# Local virtual environments and Python artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+
+# Downloaded document corpora and local outputs
+*.pdf
+data/
+outputs/
+artifacts/
+*.parquet
+*.delta
+
+# Notebook temporary checkpoints and local IDE settings
+.ipynb_checkpoints/
+.vscode/
+.idea/
